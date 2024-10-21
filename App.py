@@ -135,7 +135,7 @@ def cari_jodoh():
             random.seed()
             pasangan_dipilih = random.choice(pasangan_cocok)
             st.write("Pasangan yang cocok untuk Anda adalah:")
-            st.write(f"Nama: {pasangan_dipilih['nama']}, Umur: {pasangan_dipilih['umur']}, Jenis Kelamin: {pasangan_dipilih['jenis_kelamin']}, Hobi: {pasangan_dipilih['hobi']}, Love Language: {pasangan_dipilih['love_language']}, Agama: {pasangan_dipilih['agama']}")
+            st.write(f"Nama: {pasangan_dipilih['nama']}, Umur: {pasangan_dipilih['umur']}, Jenis Kelamin: {pasangan_dipilih['jenis_kelamin']}, Hobi: {pasangan_dipilih['hobi']}, Love Language: {pasangan_dipilih['love_language']}, Agama: {pasangan_dipilih['agama']}, Nomor WA: {pasangan_dipilih['nomor_wa']}")
         else:
             st.write("Tidak ada pasangan yang cocok ditemukan.")
 
